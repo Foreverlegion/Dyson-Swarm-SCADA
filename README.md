@@ -2,8 +2,6 @@
 
 A high-fidelity, systems-engineering approach to simulating a **Type II Civilization** energy grid. This simulation models an **Active Dyson Swarm** using hard-science principles of orbital mechanics, solar electric propulsion, and industrial-grade telemetry.
 
-![Simulation Screenshot](https://raw.githubusercontent.com/placeholder-path/screenshot.png) *(Note: Add your own screenshot here!)*
-
 ## The "Active Swarm" Concept
 
 Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulation models a **Managed Industrial Swarm**. 
