@@ -4,7 +4,7 @@ A high-fidelity, systems-engineering approach to simulating a **Type II Civiliza
 
 ![Simulation Screenshot](https://raw.githubusercontent.com/placeholder-path/screenshot.png) *(Note: Add your own screenshot here!)*
 
-## 🚀 The "Active Swarm" Concept
+## The "Active Swarm" Concept
 
 Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulation models a **Managed Industrial Swarm**. 
 
@@ -14,7 +14,7 @@ Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulat
 *   **The Oberth Effect**: Propulsion is optimized by firing Ion Drives at the perihelion (closest point to the Sun), maximizing orbital energy recovery and allowing vehicles to "kick" back to higher orbits for storage.
 *   **Lunar Buffer Storage**: Harvested energy is transmitted to a **Planetary-Scale Buffer** on the Moon. This Exajoule-scale battery balances the dynamic output of the swarm against global grid demand.
 
-## 🛠️ Features
+## Features
 
 *   **SCADA Interface**: Industrial-grade telemetry and control system (SIT-OS v6.2).
 *   **Real-Time Diagnostics**: Monitor individual vehicle kinematics, bus voltage, magnetic flux, and ion core temperatures.
@@ -22,7 +22,7 @@ Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulat
 *   **Trend Analysis**: Live graphing of Output vs. Demand.
 *   **Visual Simulation**: Real-time canvas rendering with ion plume animations and energy transfer beams.
 
-## 📈 Technical Specs (Hard Science)
+## Technical Specs (Hard Science)
 
 | Metric | Simulation Value | Realistic Basis |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulat
 | **Propulsion** | Ion Drive (62% Eff) | Solar-Electric Propulsion (SEP) |
 | **Grid Capacity** | 100 TW | 5x Current Earth Consumption |
 
-## 📦 Installation
+## Installation
 
 1.  **Requirements**: Python 3.x, Tkinter (usually included with Python).
 2.  **Run**:
@@ -40,7 +40,7 @@ Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulat
     python dyson_scada.py
     ```
 
-## 📜 How it Works (The "Dive & Kick" Loop)
+## How it Works (The "Dive & Kick" Loop)
 
 1.  **The Dive**: Vehicles decay toward the Sun, building velocity and increasing solar flux exposure.
 2.  **The Harvest**: At peak proximity, vehicles harvest maximum power, filling the grid and the Lunar Buffer.
@@ -48,5 +48,3 @@ Unlike passive "Dyson Bubble" models that rely on thin solar sails, this simulat
 4.  **Load Balancing**: The **Lunar Buffer** automatically discharges EJ-scale energy when the swarm is in its "climb" phase or when demand spikes.
 
 ---
-
-*This project is a conceptual engineering model intended for educational and world-building purposes.*
