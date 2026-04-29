@@ -1,27 +1,24 @@
 import unittest
-from dyson_scada import DysonSCADA
+from dyson_scada import PhysicsCalculations, EnergyBalance, DataStructures, UtilityCalculations
 
-class TestDysonSCADA(unittest.TestCase):
+class TestDysonScada(unittest.TestCase):
 
-    def setUp(self):
-        # Initialize the DysonSCADA instance prior to each test
-global_scada = DysonSCADA()
-        self.scada = global_scada
+    def test_physics_calculations(self):
+        # Add your physics test cases here
+        self.assertAlmostEqual(PhysicsCalculations.some_function(), expected_value)
 
-    def test_initialization(self):
-        # Test if the instance is initialized correctly
-        self.assertIsNotNone(self.scada)
-        self.assertEqual(self.scada.some_property, expected_value)  # Adjust with actual expected values
+    def test_energy_balance(self):
+        # Add your energy balance test cases here
+        self.assertTrue(EnergyBalance.check_balance())
 
-    def test_infrastructure_setup(self):
-        # Test infrastructure setup method
-        self.scada.setup_infrastructure()
-        self.assertTrue(self.scada.infrastructure_ready)
+    def test_data_structures(self):
+        # Add your data structure test cases here
+        ds = DataStructures()
+        self.assertIsInstance(ds.some_structure, dict)
 
-    def test_key_calculations(self):
-        # Test key calculations in the dyson_scada module
-        result = self.scada.calculate_something()  # Replace with actual method and parameters
-        self.assertEqual(result, expected_result)  # Adjust with actual expected values
+    def test_utility_calculations(self):
+        # Add your utility calculation test cases here
+        self.assertEqual(UtilityCalculations.calculate_something(), expected_result)
 
 if __name__ == '__main__':
     unittest.main()
